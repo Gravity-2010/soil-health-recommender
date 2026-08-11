@@ -37,7 +37,12 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🌱 Soil Health Recommendation System")
+st.title("🌱 Soil Health Recommender")
+
+st.caption(
+    "Rule-based educational tool for comparing soil and environmental "
+    "readings with predefined crop-specific reference ranges."
+)
 
 crop = st.text_input(
     "Enter crop name",
