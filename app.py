@@ -44,6 +44,12 @@ st.caption(
     "readings with predefined crop-specific reference ranges."
 )
 
+st.info(
+    "This application is an educational prototype. The reference ranges "
+    "used here are illustrative and should not replace soil testing, "
+    "local agricultural guidance, or recommendations from agronomy professionals."
+)
+
 crop = st.text_input(
     "Enter crop name",
     placeholder="rice or wheat"
